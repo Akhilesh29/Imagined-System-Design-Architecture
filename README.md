@@ -140,42 +140,6 @@ imagined-studio/
 └── build/
 ```
 
-## Building and Running
-
-### Prerequisites
-- CMake 3.10 or higher
-- C++17 compatible compiler
-- Visual Studio 2022 (Windows) or GCC/Clang (Linux/Mac)
-
-### Build Instructions
-
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/imagined-studio.git
-cd imagined-studio
-```
-
-2. Create build directory and build:
-```bash
-# Windows (Visual Studio)
-cmake -G "Visual Studio 17 2022" -A x64 -B build
-cmake --build build --config Release
-
-# Linux/Mac
-mkdir build && cd build
-cmake ..
-make
-```
-
-3. Run the demo:
-```bash
-# Windows
-.\build\Release\imagined_studio_demo.exe
-
-# Linux/Mac
-./build/imagined_studio_demo
-```
-
 ### Expected Output
 ```
 Imagined Studio System Demo
@@ -205,16 +169,5 @@ Available: Yes
 ------------------------
 ```
 
-## Contributing
-Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Getting Started
-1. Clone the repository
-2. Install dependencies
-3. Build the project
-4. Run tests
-5. Start services
 
